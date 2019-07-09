@@ -1,0 +1,236 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+/* ------------------------------------- */
+
+body {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 20px;
+}
+/* ------------------------------------- */
+.no-padding {
+    padding: 0;
+}
+.no-gutter > [class*=col-] {
+    padding-right: 0;
+    padding-left: 0;
+}
+.w555-visible {
+    display: none;
+}
+.affix {
+    position: static;
+}
+.result {
+    display: none;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.carousel-caption {
+    background: rgba(100,100,100,.5);
+    box-shadow: 0px 0px 10px 5px rgba(100,100,100,.5);
+}
+
+#links {
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    padding-top: 10px;
+    list-style: none;
+    text-align: center;
+    z-index: 99999;
+}
+ul#links {
+    margin-bottom: 0;
+}
+#links li {
+    display: inline;
+    padding: 0 5px;
+}
+#links li label {
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+#links li.active label {
+    background-color: white;
+}
+/* ------------- COMMON STYLE ---------- */
+.marg-top-20 {
+    margin-top: 20px;
+}
+.page-header .container>header h1 {
+    font-size: 34px;
+    text-transform: uppercase;
+}
+.page-footer {
+    border-top: 1px solid #eee;
+    font-size: 18px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.w290 {
+    display: none;
+}
+.lp-block {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.lp-block header {
+    font-family: Verdana, Verdana, Geneva, sans-serif;
+}
+.lp-block .container > header {
+    margin-bottom: 30px;
+}
+.lp-block .gallery a {
+    display: block;
+    height: 100%;
+    max-height: 90px;
+    max-width: 90px;
+    width: 100%;
+}
+.lp-block header .p-logo {
+    width: 100px;
+}
+.lp-block header h2 {
+    display: inline-block;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.lp-block .b-b {
+    background: #000;
+    /*box-shadow: 0px 0px 1px 1px rgba(0,0,0,1);*/
+}
+.lp-block .m-logo {
+    display: block;
+    height: auto;
+    max-width: 190px;
+    width: 100%;    
+    /*box-shadow: 0px 0px 1px 1px rgba(0,0,0,1);*/
+}
+.lp-block header h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.lp-block header h4 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.lp-block header h3>small {
+    font-size: 26px;
+}
+.lp-block .descript {
+    text-indent: 70px;
+}
+/* ------------- PAGE TITLE ------------ */
+
+/* ------------- /PAGE TITLE ----------- */
+.page-navigate .navbar {
+    font-size: 16px;
+}
+/* ------------------------------------- */
+.navbar-form {
+    margin-top: 8px;
+}
+nav .navbar-form > button {
+    padding: 2px 6px;
+}
+nav .navbar-form > button > i {
+    font-size: 20px;
+}
+nav .navbar-phone {
+    color: #ffffff;
+    font-size: 20px;
+    margin: auto 10px;
+    vertical-align: middle;
+}
+/* ------------- PAGE MATHERIALS ------------ */
+
+.page-matherials .m-prop-ico {
+    display: inline-block;
+    max-width: 79px;
+    width: 100%;
+}
+.page-matherials .table.descr {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.page-matherials header h4 {
+    border-bottom: 1px solid lightgray;
+}
+.page-matherials .benefits .dlb {
+    /*    background: rgb(250, 250, 250);*/
+}
+.page-matherials .benefits dl dd {
+    margin: 15px auto;
+    line-height: 25px;
+    border-bottom: 1px dotted lightgray;
+}
+.page-matherials .m-charac ul li {
+    line-height: 35px;
+    text-transform: uppercase;
+}
+/* ------------- /PAGE MATHERIALS ----------- */
+
+/* ------------------------------------- */
+
+/* ------------- PAGE FINDINGS ------------ */
+
+.page-findings .ico-work {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+/* ------------- /PAGE FINDINGS ----------- */
+.products-box {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 650px;
+}
+
+.products-box .products-box-caption {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+    background: rgba(240,95,64,.9);
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+.products-box .products-box-caption .products-box-caption-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+}
+.products-box .products-box-caption .products-box-caption-content .product-category,
+.products-box .products-box-caption .products-box-caption-content .product-name {
+    padding: 0 15px;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+.products-box .products-box-caption .products-box-caption-content .product-category {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+.products-box .products-box-caption .products-box-caption-content .product-name {
+    font-size: 18px;
+}
+.products-box:hover .products-box-caption {
+    opacity: 1;
+}
+/* ------------------------------------- */
