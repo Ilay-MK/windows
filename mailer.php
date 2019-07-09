@@ -15,7 +15,7 @@ function sendMail($mes, $type)
     $mail->SMTPAuth   = true;                                                       // enable SMTP authentication
     $mail->SMTPSecure = "";                                                         // sets the prefix to the servier
 	$mail->Host       = "";                                         //"mail.zae-box.by"; // sets GMAIL as the SMTP server
-	$mail->Port       = ;                                                        // set the SMTP port
+	$mail->Port       = "";                                                        // set the SMTP port
 	$mail->Username   = "";                                    //"no-reply@zae-box.by";  // GMAIL username
 	$mail->Password   = "";                                                //"Ohgee4ai"; // GMAIL password
 	$mail->From       = "";                                    //$mes["email"];
