@@ -2,7 +2,7 @@
 
 Manufacturing, installation of PVC windows and aluminum frames
 
-![The adaptive desktop-tablet](http://purouski.xyz/assets/projects/windows/desktop-tablet.webm)
+![The adaptive desktop-tablet](http://purouski.xyz/assets/projects/windows/video.mp4)
 ![The adaptive windows website](http://purouski.xyz/assets/projects/windows/cover.jpg)
 
 [Demo](http://windows.purouski.xyz)
